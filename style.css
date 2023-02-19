@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    background-color:#081C15;
+    font-family: "outfit";
+
+}
+
+li, a, button{
+    font-weight:500;
+    font-size: 16px;
+    color: #D8F3DC;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;    
+}
+
+
+.logo{
+    cursor: pointer;
+}
+.nav__links{
+    list-style:none;
+}
+.nav__links li {
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #8b9c8e;
+}
+nav{
+    position: sticky;
+}
+
+.hi{
+    font-family: "outfit";
+    color:#D8F3DC;
+    font-size: 24px;
+
+}
+
+.daniel{
+    color:#74c69d;
+    font-size: 96px;
+    position: relative;
+}
+.compsci{
+    color:#40916c;
+    font-size: 40px;
+}
+
+.uni{
+    color:rgb(49, 99, 77);
+    font-size:20px;
+    width:453px;
+    word-wrap: break-word;
+    text-align: justify;
+    padding-top:15px;
+}
+
+.uni:nth-child(2){
+    padding-top: 30px;
+    font-size:20px;
+}
+
+.uni em {
+    color:#D8F3DC;
+
+}
+.parent {
+    display:block;
+    padding:175px 300px;
+    min-height:90vh;
+}
+
+.hidden{
+    opacity:0;
+    transition:all 2s;
+}
+.show{
+    opacity: 1;
+    transition: all 2s;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+#about{
+    padding:200px 300px;
+    min-height: 100vh;
+}
+#education{
+    padding:100px 300px;
+    min-height: 100vh;
+    max-width: 30vw;
+}
+
+.gcse_alevel_columns{
+    display: flex;
+    min-width: max-content;
+
+}
+
+.col{
+    flex: 1;
+}
+
+.col:first-child{
+    margin-right: 50px;
+}
+
+.col:nth-child(2){
+    margin-right:30px;
+}
